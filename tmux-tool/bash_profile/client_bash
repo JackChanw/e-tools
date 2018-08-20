@@ -11,21 +11,9 @@ export PATH
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=${PATH}:/usr/local/mysql/bin:/Library/Python/2.7/site-packages/thrift
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-export PATH=$PATH:/usr/local/homebrew/bin:/usr/local/homebrew/bin/npm
-export PATH=$PATH:/Users/chanw/
-# Finished adapting your PATH environment variable for use with MacPorts.
 
 # User specific environment and startup programs
 alias 206='mosh chenwei1@10.0.0.206 mosh-command.sh'  #fccGxny
-alias mysql='/usr/local/mysql/bin/mysql'
-alias sed='/usr/local/homebrew/Cellar/gnu-sed/4.2.2/bin/gsed'
-alias ll='ls -l'
-alias composer='composer.phar'
-alias flushdns='sudo dscacheutil -flushcache'
-alias go='/usr/local/go/bin/go'
 
 #Managing tmux server
 
@@ -39,7 +27,4 @@ alias go='/usr/local/go/bin/go'
 	#tmux new -s session_name  #make new named session
 	#tmux at -t session_name    #attach to exists session(s)
 	#tmux kill-session -t session_name #killnamed session
-
-# 解决安装软件时没有"允许任何来源"选项时操作
-#sudo spctl --master-disable
 
