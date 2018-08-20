@@ -1,0 +1,16 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+#PATH=$VIM_HOME/bin:$PATH:$HOME/bin
+alias php='/usr/local/domob/prog.d/php-5.5.14/bin/php'
+
+alias vi='vim'
+alias composer='composer.phar'
+
+export PATH=$PATH:/home/chenwei1/bin/node_modules/pm2/bin/
+export LANG="zh_CN.utg-8"
+export LC_ALL="zh_CN.utf-8"
